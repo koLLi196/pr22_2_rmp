@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Vhod"
+        android:textSize="28sp"
+        android:textColor="#6C63FF"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editext"
+        android:hint="@string/login"
+        android:inputType="text"
+        android:textColorHint="#C3C1E5"
+        android:textColor="#6C63FF"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="7dp"
+        android:paddingLeft="9dp"
+        android:paddingBottom="7dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editext"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="#C3C1E5"
+        android:textColor="#6C63FF"
+        android:layout_marginBottom="24dp"
+        android:paddingTop="7dp"
+        android:paddingLeft="9dp"
+        android:paddingBottom="7dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="@string/vhod2" />
+
+</LinearLayout>
